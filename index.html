@@ -3,101 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon site sur VS Code</title>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  <title>Guidélam — Skincare & Bien-être</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- NAVBAR -->
   <nav>
-    <div class="logo">VS Code</div>
+    <div class="logo">Guidélam ✨</div>
     <ul>
       <li><a href="#accueil">Accueil</a></li>
-      <li><a href="#fonctionnalites">Fonctionnalités</a></li>
-      <li><a href="#extensions">Extensions</a></li>
-      <li><a href="#telechargement">Télécharger</a></li>
+      <li><a href="#routine">Ma Routine</a></li>
+      <li><a href="#conseils">Conseils</a></li>
+      <li><a href="#galerie">Galerie</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <!-- SECTION ACCUEIL -->
   <section id="accueil">
-    <h1 class="nom-auteur">Guidélam</h1>
-    <h1>Visual Studio Code</h1>
-    <p>L'éditeur de code gratuit, puissant et open source de Microsoft.</p>
-    <a href="#telechargement" class="bouton">Télécharger gratuitement</a>
-  </section>
-
-  <!-- SECTION FONCTIONNALITÉS -->
-  <section id="fonctionnalites">
-    <h2>Fonctionnalités</h2>
-    <div class="cartes">
-      <div class="carte">
-        <h3>🤖 IntelliSense</h3>
-        <p>Autocomplétion intelligente pour écrire du code plus vite.</p>
-      </div>
-      <div class="carte">
-        <h3>🐛 Débogage</h3>
-        <p>Détectez et corrigez vos erreurs directement dans l'éditeur.</p>
-      </div>
-      <div class="carte">
-        <h3>🔀 Git intégré</h3>
-        <p>Gérez vos versions de code sans quitter VS Code.</p>
+    <div class="hero">
+      <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=800" 
+           alt="Skincare" class="hero-img">
+      <div class="hero-texte">
+        <h1>Skincare & Bien-être</h1>
+        <p>Bienvenue sur mon espace dédié aux soins de la peau et au bien-être au naturel.</p>
+        <a href="#routine" class="bouton">Découvrir ma routine</a>
       </div>
     </div>
   </section>
 
-  <!-- SECTION EXTENSIONS -->
-  <section id="extensions">
-    <h2>Extensions populaires</h2>
+  <!-- SECTION ROUTINE -->
+  <section id="routine">
+    <h2>Ma Routine Skincare</h2>
+    <p class="section-desc">Une routine simple et efficace pour une peau rayonnante 🌸</p>
     <div class="cartes">
       <div class="carte">
-        <h3>🐍 Python</h3>
-        <p>Développement Python avec débogage et Jupyter.</p>
+        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400" alt="Nettoyage">
+        <h3>🧴 Nettoyage</h3>
+        <p>Nettoyer sa peau matin et soir pour éliminer les impuretés.</p>
       </div>
       <div class="carte">
-        <h3>✨ Prettier</h3>
-        <p>Formatage automatique de ton code.</p>
+        <img src="https://images.unsplash.com/photo-1570194065650-d99fb4d66a09?w=400" alt="Hydratation">
+        <h3>💧 Hydratation</h3>
+        <p>Hydrater sa peau quotidiennement pour la garder souple et lumineuse.</p>
       </div>
       <div class="carte">
-        <h3>🦊 ESLint</h3>
-        <p>Détection d'erreurs JavaScript en temps réel.</p>
+        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=400" alt="Protection">
+        <h3>☀️ Protection</h3>
+        <p>Appliquer de la crème solaire chaque matin, même par temps nuageux.</p>
       </div>
     </div>
   </section>
 
-  <!-- SECTION STATISTIQUES -->
-  <section id="stats">
-    <h2>VS Code en chiffres</h2>
+  <!-- SECTION CONSEILS -->
+  <section id="conseils">
+    <h2>Mes Conseils Bien-être</h2>
+    <p class="section-desc">Prendre soin de soi c'est aussi prendre soin de son âme 🌿</p>
     <div class="cartes">
       <div class="carte">
-        <h3>73%</h3>
-        <p>des développeurs l'utilisent dans le monde.</p>
+        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400" alt="Massage">
+        <h3>💆 Massage</h3>
+        <p>Un massage du visage quotidien pour stimuler la circulation.</p>
       </div>
       <div class="carte">
-        <h3>30M+</h3>
-        <p>utilisateurs actifs chaque mois.</p>
+        <img src="https://images.unsplash.com/photo-1510894347713-fc3dc6166086?w=400" alt="Eau">
+        <h3>💦 Hydratation interne</h3>
+        <p>Boire au moins 1,5L d'eau par jour pour une peau éclatante.</p>
       </div>
       <div class="carte">
-        <h3>50 000+</h3>
-        <p>extensions disponibles gratuitement.</p>
+        <img src="https://images.unsplash.com/photo-1540206395-68808572332f?w=400" alt="Sommeil">
+        <h3>😴 Sommeil</h3>
+        <p>Dormir 7 à 8h par nuit, le secret d'une belle peau.</p>
       </div>
     </div>
   </section>
 
-  <!-- SECTION TÉLÉCHARGEMENT -->
-  <section id="telechargement">
-    <h2>Télécharger VS Code</h2>
-    <p>Gratuit et disponible sur toutes les plateformes.</p>
-    <a href="https://code.visualstudio.com" class="bouton" target="_blank">
-      Télécharger maintenant
-    </a>
+  <!-- SECTION GALERIE -->
+  <section id="galerie">
+    <h2>Ma Galerie</h2>
+    <p class="section-desc">Mes produits et moments bien-être préférés 📸</p>
+    <div class="galerie-grid">
+      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400" alt="Produits skincare">
+      <img src="https://images.unsplash.com/photo-1583209814683-c023dd293cc6?w=400" alt="Crème visage">
+      <img src="https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400" alt="Sérum">
+      <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400" alt="Masque">
+      <img src="https://images.unsplash.com/photo-1599305090598-fe179d501227?w=400" alt="Bien-être">
+      <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=400" alt="Spa">
+    </div>
+  </section>
+
+  <!-- SECTION CONTACT -->
+  <section id="contact">
+    <h2>Me Contacter</h2>
+    <p class="section-desc">Une question ? N'hésite pas à m'écrire 💌</p>
+    <div class="formulaire">
+      <input type="text" placeholder="Ton prénom" class="champ">
+      <input type="email" placeholder="Ton email" class="champ">
+      <textarea placeholder="Ton message..." class="champ" rows="5"></textarea>
+      <button class="bouton" onclick="envoyerMessage()">Envoyer ✉️</button>
+    </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    <p>Site créé par Guidélam 💙 — VS Code est un projet open source de Microsoft</p>
+    <p>Fait avec 💗 par Guidélam — Skincare & Bien-être</p>
   </footer>
+
+  <script>
+    function envoyerMessage() {
+      alert("Merci pour ton message ! Je te réponds très vite 💗");
+    }
+  </script>
 
 </body>
 </html>
